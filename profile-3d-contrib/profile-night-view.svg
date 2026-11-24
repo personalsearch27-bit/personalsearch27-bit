@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img">
+<title>M. Abdullah - animated GitHub profile</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0d16"/><stop offset=".55" stop-color="#131526"/><stop offset="1" stop-color="#10131d"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22d3ee" stop-opacity=".8"/><stop offset=".55" stop-color="#a78bfa" stop-opacity=".7"/><stop offset="1" stop-color="#f472b6" stop-opacity=".65"/></linearGradient>
+  <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#67e8f9"/><stop offset=".55" stop-color="#c4b5fd"/><stop offset="1" stop-color="#f9a8d4"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff" stop-opacity=".075"/><stop offset="1" stop-color="#ffffff" stop-opacity=".025"/></linearGradient>
+  <radialGradient id="aura"><stop stop-color="#22d3ee" stop-opacity=".2"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#b5c0d9" opacity=".16"/></pattern>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="portrait"><rect x="0" y="0" width="360" height="360" rx="28"/></clipPath>
+  
+</defs>
+<rect width="1000" height="240" rx="28" fill="url(#bg)"/>
+<rect width="1000" height="240" rx="28" fill="url(#dots)" opacity=".55"/>
+<ellipse cx="750" cy="19" rx="350" ry="260" fill="url(#aura)"/>
+
+<style>
+  text { font-family: 'Segoe UI', Arial, sans-serif; }
+  .mono { font-family: Consolas, 'SFMono-Regular', monospace; }
+  .muted { fill: #9aa3b6; }
+  .white { fill: #f5f7ff; }
+  .cyan { fill: #72e6f7; }
+  .violet { fill: #c3adff; }
+  .pink { fill: #ff9fc8; }
+  .eyebrow { fill: #72e6f7; font-size: 12px; font-weight: 700; letter-spacing: 2px; }
+  .title { fill: #f5f7ff; font-size: 42px; font-weight: 700; }
+  .body { fill: #bdc4d4; font-size: 15px; }
+  .label { fill: #9aa3b6; font-size: 11px; letter-spacing: 1.4px; }
+  .chip { fill: #111522; stroke: #343b4d; stroke-width: 1; }
+  .glass { fill: url(#glass); stroke: url(#line); stroke-width: 1.2; }
+  .float { animation: float 5s ease-in-out infinite; }
+  .pulse { animation: pulse 2.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  .blink { animation: blink 1.3s steps(2, jump-none) infinite; }
+  .orbit { transform-box: fill-box; transform-origin: center; animation: orbit 14s linear infinite; }
+  .sweep { animation: sweep 4.4s ease-in-out infinite; }
+  @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+  @keyframes pulse { 0%,100% { opacity: .65; transform: scale(.96); } 50% { opacity: 1; transform: scale(1.08); } }
+  @keyframes blink { 50% { opacity: .25; } }
+  @keyframes orbit { to { transform: rotate(360deg); } }
+  @keyframes sweep { 0%,35% { transform: translateX(-260px); opacity: 0; } 50% { opacity: .7; } 80%,100% { transform: translateX(360px); opacity: 0; } }
+</style>
+
+
+<rect x="12" y="12" width="976" height="216" rx="22" fill="none" stroke="url(#line)" stroke-opacity=".35"/>
+<text x="40" y="54" class="eyebrow">NIGHT VIEW · CONTRIBUTION CITY</text><text x="40" y="85" class="white" font-size="20" font-weight="700">Your skyline is queued for its first GitHub Actions run.</text>
+<g transform="translate(42 102)" fill="#172235" stroke="#3b4862"><path d="M0 96h40V60h25v36h33V38h28v58h35V52h35v44h37V23h28v73h37V45h35v51h36V30h31v66h31V57h30v39h33V35h30v61h41V47h27v49h39V62h29v34h42v-57h27v57h37V36h29v60h43V50h28v46h47V33h30v63h50v-43h31v43h33"/></g>
+<path d="M42 204h915" stroke="url(#name)" opacity=".6"/><text x="40" y="220" class="muted mono" font-size="10">This placeholder will be replaced by profile-3d-contrib@v0.9.3</text>
+
+</svg>
