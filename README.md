@@ -1,15 +1,15 @@
 <!-- M. Abdullah | personalsearch27-bit -->
-<p align="center"><img src="hero.svg?v=1" width="100%" alt="Animated profile hero for M. Abdullah" /></p>
+<p align="center"><img src="hero.svg?v=2" width="100%" alt="Animated profile hero for M. Abdullah" /></p>
 
-<p align="center"><img src="about-life.svg?v=1" width="100%" alt="What M. Abdullah is building and the visual mood of the profile" /></p>
+<p align="center"><img src="about-life.svg?v=2" width="100%" alt="What M. Abdullah is building and the visual mood of the profile" /></p>
 
-<p align="center"><img src="stack.svg?v=1" width="100%" alt="Technologies visible in the public Shiya Companion project" /></p>
+<p align="center"><img src="stack.svg?v=2" width="100%" alt="Technologies visible in the public Shiya Companion project" /></p>
 
-<p align="center"><img src="id-dashboard.svg?v=1" width="100%" alt="Illustrated profile badge and public project snapshot" /></p>
+<p align="center"><img src="id-dashboard.svg?v=2" width="100%" alt="Illustrated profile badge and public project snapshot" /></p>
 
-<p align="center"><img src="profile-3d-contrib/profile-night-view.svg?v=1" width="100%" alt="GitHub contribution city; generated daily by GitHub Actions" /></p>
+<p align="center"><img src="profile-3d-contrib/profile-night-view.svg?v=2" width="100%" alt="GitHub contribution city; generated daily by GitHub Actions" /></p>
 
-<p align="center"><img src="connect.svg?v=1" width="100%" alt="Connect with M. Abdullah on GitHub" /></p>
+<p align="center"><img src="connect.svg?v=2" width="100%" alt="Connect with M. Abdullah on GitHub" /></p>
 
 ### Featured project
 
