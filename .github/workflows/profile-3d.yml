@@ -18,6 +18,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile-3d-contrib/github-snake.svg
+            profile-3d-contrib/github-snake-dark.svg?palette=github-dark
       - name: Commit generated images
         run: |
           git config user.name github-actions
