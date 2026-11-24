@@ -1,23 +1,23 @@
 <!-- M. Abdullah | personalsearch27-bit -->
-<p align="center"><img src="hero.svg?v=4" width="100%" alt="Animated profile hero for M. Abdullah" /></p>
+<p align="center"><img src="hero.svg?v=5" width="100%" alt="Animated profile hero for M. Abdullah" /></p>
 
-<p align="center"><img src="about-life.svg?v=4" width="100%" alt="What M. Abdullah is building and the visual mood of the profile" /></p>
+<p align="center"><img src="about-life.svg?v=5" width="100%" alt="What M. Abdullah is building and the visual mood of the profile" /></p>
 
-<p align="center"><img src="stack.svg?v=4" width="100%" alt="Technologies visible in the public Shiya Companion project" /></p>
+<p align="center"><img src="stack.svg?v=5" width="100%" alt="Technologies visible in the public Shiya Companion project" /></p>
 
-<p align="center"><img src="id-dashboard.svg?v=4" width="100%" alt="Illustrated profile badge and public project snapshot" /></p>
+<p align="center"><img src="id-dashboard.svg?v=5" width="100%" alt="Illustrated profile badge and public project snapshot" /></p>
 
 ### Contribution snake
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/github-snake-dark.svg?v=4" />
-  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/github-snake.svg?v=4" />
-  <img src="profile-3d-contrib/github-snake.svg?v=4" width="100%" alt="Animated snake tracing M. Abdullah's GitHub contribution graph" />
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/github-snake-dark.svg?v=5" />
+  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/github-snake.svg?v=5" />
+  <img src="profile-3d-contrib/github-snake.svg?v=5" width="100%" alt="Animated snake tracing M. Abdullah's GitHub contribution graph" />
 </picture>
 
-<p align="center"><img src="profile-3d-contrib/profile-night-view.svg?v=4" width="100%" alt="GitHub contribution city; generated daily by GitHub Actions" /></p>
+<p align="center"><img src="profile-3d-contrib/profile-night-view.svg?v=5" width="100%" alt="GitHub contribution city; generated daily by GitHub Actions" /></p>
 
-<p align="center"><img src="connect.svg?v=4" width="100%" alt="Connect with M. Abdullah on GitHub" /></p>
+<p align="center"><img src="connect.svg?v=5" width="100%" alt="Connect with M. Abdullah on GitHub" /></p>
 
 ### Featured project
 
